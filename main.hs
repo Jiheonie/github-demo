@@ -44,3 +44,4 @@ triangles = [(a,b,c) | a <- [1..10], b <- [1..a], c <- [1..b], a^2 == b^2 + c^2,
 -- function xs = [x | x <- xs, ....]
 -- boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
 
+-- WELCOME TO HASKELL
